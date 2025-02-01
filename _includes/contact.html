@@ -646,5 +646,14 @@
     <a href="{{ link }}" title="{{ link }}" target="_blank">{{ text }}</a>
   </div>
   {%- endif %}
+
+  {%- if contact.cv %}
+  {%- assign text = contact.cv %}
+  {%- assign link = "../assets/static/" | append: text | append: ".pdf" %}
+  <div class="contact-item" title="CV">
+    <i class="fa fa-file"></i>
+    <a href="{{ link }}" title="{{ link }}" target="_blank">{{ text }}</a>
+  </div>
+  {%- endif %}
 </div>
 {%- endif %}

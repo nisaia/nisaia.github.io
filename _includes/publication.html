@@ -19,12 +19,17 @@
       <div class="item">
 
         {%- if item.title %}
-        <div class="publication-title">
-          {%- if item.link %}
-          <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
-          {%- else %}
-          <span>{{ item.title }}</span>
-          {%- endif %}
+        <div class="row">
+          <div class="publication-title">
+            {%- if item.link %}
+            <a href="{{ item.link }}" target="_blank">{{ item.title }}</a>
+            {%- else %}
+            <span>{{ item.title }}</span>
+            {%- endif %}
+          </div>
+          <div class="date">
+            <span>{{ item.date }}</span>
+          </div>
         </div>
 
         {%- if item.authors %}
