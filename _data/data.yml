@@ -260,7 +260,7 @@ skill:
         - Git
         - Docker
         - AWS
-    - name: Operative Systems
+    - name: Operating Systems
       item:
         - Linux
         - Windows
