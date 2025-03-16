@@ -254,7 +254,7 @@ skill:
       item:
         - MySQL
         - PostgreSQL
-        - Microsoft SQL
+        - Microsoft SQL Server
     - name: Developer Tools
       item:
         - Git
